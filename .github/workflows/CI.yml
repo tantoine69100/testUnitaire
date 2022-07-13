@@ -7,9 +7,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: pip install joblib
       - run: pip install sklearn
-      - run: python test_model.py
+      - run: python testUnitaires.py
       - run: pip install pytest
-      - run: pytest test_model.py
+      - run: pytest testUnitaires.py
       - run: pip install streamlit
       - run: pip install -U Jinja2
       - run: streamlit run model_dashboard.py &

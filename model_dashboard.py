@@ -23,6 +23,6 @@ if taille > 0 and nb_rooms > 0:
     
     X = [[taille, nb_rooms, garden]]
     prediction = model.predict(X)
-    ## afficher la prediction
+
     st.write("le prix de la maison est : {}". format(prediction[0]))
 
